@@ -33,7 +33,7 @@ void dijkstra (ll source, ll n) {
         for (auto ch : adj[u]) {
             int v = ch.first;
             ll w = ch.second;
-            if (dist[v] < currD + w) { 
+            if (dist[v] <= currD + w) { 
                 continue;
             }
 
