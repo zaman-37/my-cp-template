@@ -26,7 +26,7 @@ void dijkstra (ll source, ll n) {
         ll currD = pq.top().first;
         pq.pop();
 
-        if (dist[u] < currD) {  // greater distance will be ignored 
+        if (dist[u] != currD) {  // greater distance will be ignored 
             continue;
         }
 
