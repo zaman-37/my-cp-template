@@ -12,3 +12,10 @@
 |---|---|
 |01|[Dijkstra using priority_queue](https://github.com/zaman-37/my-cp-template/blob/main/code/dijkstra_implementatipn_using_priority_queue.cpp "dijkstra")|
 |02|[Dijkstra using set](https://github.com/zaman-37/my-cp-template/blob/main/code/dijkstra_implementatipn_using_set.cpp "dijkstra")|
+
+## Number Theory:-
+|SL|Topic|
+|---|---|
+|01|[Prime Number's Cyclic Property on Mod of 10 power](https://github.com/zaman-37/my-cp-template/blob/main/code/cyclic_property_of_prim_numbers.cpp "Prime number")|
+
+
