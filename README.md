@@ -18,4 +18,7 @@
 |---|---|
 |01|[Prime Number's Cyclic Property on Mod of 10 power](https://github.com/zaman-37/my-cp-template/blob/main/code/cyclic_property_of_prim_numbers.cpp "Prime number")|
 
-
+## Partial Sum:-
+|SL|Topic|
+|---|---|
+|01|[Kadan's Algorithm (max or min subarray sum)](https://github.com/zaman-37/my-cp-template/blob/a087f881eec9e374a4a0540f6b8953649a7e8cd5/code/kadane_s__algorithm.cpp "max or min subarray sum")|
