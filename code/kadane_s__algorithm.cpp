@@ -23,30 +23,22 @@ const ll MOD = 1000000007LL;
 
 
 ll max_subarray_sum(vector<int> &v, int s, int e) {
-    ll ans = v[s];
-    ll tem = v[s];
-    for (int i=s+1; i<=e; i++) {
-        if (tem < 0) {
-            tem = v[i];
-        }
-        else {
-            tem += v[i];
-        }
+    ll ans = (-1) * infLL;
+    ll tem = (-1) * infLL;
+    for (int i=s; i<=e; i++) {
+        if (tem > 0) tem += v[i];
+        else tem = v[i];
         ans = max(ans, tem);
     }
-    return ans; 
+    return ans;
 }
 
 ll min_subarray_sum(vector<int> &v, int s, int e) {
     ll ans = infLL;
     ll tem = infLL;
-    for (int i=s; i<=e; i++) {
-        if (tem > 0) {
-            tem = v[i];
-        }
-        else {
-            tem += v[i];
-        }
+    for (int  i=s; i<=e; i++) {
+        if (tem < 0) tem += v[i];
+        else tem = v[i];
         ans = min(ans, tem);
     }
     return ans;
