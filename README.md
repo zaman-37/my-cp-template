@@ -1,6 +1,6 @@
 # _**My CP template**_
 ---
-## Content:-
+## Template:-
 |SL|Topic|
 |---|---|
 |01|[Template 00](https://github.com/zaman-37/my-cp-template/blob/main/code/cp_template00.cpp "template")|
